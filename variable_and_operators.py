@@ -160,16 +160,30 @@ while i <= 10:
     i += 1
 
 # for loop
+# basic
+for i in range(1, 11):  # range(start, end, step)
+    print(i)
+# advance
 for i in range(1, 11):
     print(i)
 
-# break
+# basic
+for i in range(1, 11, 3):  # range(start, end, step)
+    print(i)
+# advance
 for i in range(1, 11):
     if i == 5:
         break
     print(i)
 
 # continue
+# basic
+for i in range(1, 11):  # range(start, end, step)
+    if i == 5:
+        continue
+    print(i)
+
+# advance
 for i in range(1, 11):
     if i == 5:
         continue
